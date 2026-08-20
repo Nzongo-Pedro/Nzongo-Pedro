@@ -1,0 +1,351 @@
+{
+  "$schema": "./projectos.schema.json",
+  "meta": {
+    "titulo": "Portfólio de projectos — Nzongo Pedro",
+    "actualizadoEm": "2026-08-20",
+    "idioma": "pt",
+    "notas": "Substitua os SVG em assets/projetos/<id>/ por capturas reais (WebP ou PNG, 1600×900). Use null em qualquer link que ainda não exista. Não invente métricas: preencha impacto quando tiver números do cliente."
+  },
+  "projectos": [
+    {
+      "id": "amgolar",
+      "nome": "Amgolar",
+      "subtitulo": "Imóveis para venda e arrendamento em Angola",
+      "tipo": "Plataforma",
+      "categoria": "Imobiliário",
+      "estado": "privado",
+      "destaque": true,
+      "confidencial": true,
+      "ano": 2024,
+      "duracao": "Projecto completo",
+      "papel": "Full-stack",
+      "cliente": {
+        "nome": null,
+        "sector": "Imobiliário",
+        "localizacao": "Angola"
+      },
+      "descricao": "Plataforma angolana de imóveis para venda e arrendamento, pensada para o mercado local: listagens, pesquisa e contacto entre interessados e anunciantes.",
+      "problema": "Anúncios de casas espalhados por WhatsApp e redes sociais, sem um sítio único para pesquisar, comparar e contactar.",
+      "solucao": "Um marketplace web com catálogo de imóveis, filtros e fluxos de contacto, alinhado à realidade do mercado angolano.",
+      "impacto": [
+        "Canal único para venda e arrendamento",
+        "Pesquisa mais rápida do que anúncios avulsos",
+        "Base pronta a crescer com novos anunciantes"
+      ],
+      "funcionalidades": [
+        "Listagem de imóveis com fotografia",
+        "Pesquisa e filtros por tipo e localização",
+        "Contacto entre interessado e anunciante",
+        "Área de gestão de anúncios"
+      ],
+      "desafios": [
+        "Modelar tipologias e localizações do mercado angolano",
+        "Fluxo simples para anunciantes pouco digitais"
+      ],
+      "tecnologias": ["PHP", "Laravel", "Vue.js", "MySQL"],
+      "links": {
+        "site": null,
+        "github": null,
+        "demo": null,
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/amgolar/capa.svg",
+          "alt": "Capa do projecto Amgolar",
+          "legenda": "Marketplace imobiliário"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/amgolar/capa.svg",
+            "alt": "Captura da listagem de imóveis",
+            "legenda": "Substituir por captura da listagem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sigunispeka",
+      "nome": "SIGUNISPEKA",
+      "subtitulo": "Inscrição e confirmação de alunos na universidade",
+      "tipo": "Aplicação web",
+      "categoria": "Educação",
+      "estado": "privado",
+      "destaque": true,
+      "confidencial": true,
+      "ano": 2024,
+      "duracao": "Projecto institucional",
+      "papel": "Full-stack",
+      "cliente": {
+        "nome": "ISPEKA",
+        "sector": "Ensino superior",
+        "localizacao": "Angola"
+      },
+      "descricao": "Sistema de gestão universitária com foco no ciclo de inscrição e confirmação de alunos — menos filas, menos papel, mais controlo académico.",
+      "problema": "Processos de inscrição manuais, filas e confirmações difíceis de auditar no início do ano lectivo.",
+      "solucao": "Aplicação web para secretaria e alunos: inscrição, confirmação e acompanhamento do estado de cada processo.",
+      "impacto": [
+        "Menos tempo de espera na secretaria",
+        "Registo digital do estado de cada aluno",
+        "Base para outros módulos de gestão académica"
+      ],
+      "funcionalidades": [
+        "Inscrição de candidatos e alunos",
+        "Confirmação de matrícula",
+        "Acompanhamento do estado do processo",
+        "Painel para serviços académicos"
+      ],
+      "desafios": [
+        "Regras académicas específicas da instituição",
+        "Picos de utilização no início do semestre"
+      ],
+      "tecnologias": ["PHP", "Laravel", "Blade", "MySQL"],
+      "links": {
+        "site": null,
+        "github": null,
+        "demo": null,
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/sigunispeka/capa.svg",
+          "alt": "Capa do projecto SIGUNISPEKA",
+          "legenda": "Gestão universitária"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/sigunispeka/capa.svg",
+            "alt": "Captura do painel de inscrição",
+            "legenda": "Substituir por captura do painel académico"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rede-mocap",
+      "nome": "rede-MOCAP",
+      "subtitulo": "Interligação MAN com voz e serviços de rede",
+      "tipo": "Infraestrutura de redes",
+      "categoria": "Telecomunicações",
+      "estado": "estudo-de-caso",
+      "destaque": true,
+      "confidencial": false,
+      "ano": 2023,
+      "duracao": "Projecto técnico",
+      "papel": "Engenheiro de redes",
+      "cliente": {
+        "nome": null,
+        "sector": "Infraestrutura",
+        "localizacao": "Angola"
+      },
+      "descricao": "Projecto técnico de interligação MAN com VoIP, DHCP e CME — desenho, endereçamento e serviços de voz sobre a mesma malha.",
+      "problema": "Sítios geograficamente separados sem uma malha comum para dados, endereçamento automático e telefonia.",
+      "solucao": "Topologia MAN com OSPF, DHCP centralizado e VoIP com CME, documentada e validada em Packet Tracer / laboratório.",
+      "impacto": [
+        "Voz e dados na mesma interligação",
+        "Endereçamento automático via DHCP",
+        "Documentação reutilizável para implementação real"
+      ],
+      "funcionalidades": [
+        "Topologia MAN entre sítios",
+        "Encaminhamento OSPF",
+        "Serviço DHCP",
+        "VoIP com Cisco Call Manager Express"
+      ],
+      "desafios": [
+        "Separar voz e dados sem complicar a operação",
+        "Dimensionar endereçamento para crescimento"
+      ],
+      "tecnologias": ["Cisco Packet Tracer", "OSPF", "VoIP", "DHCP", "CME"],
+      "links": {
+        "site": null,
+        "github": null,
+        "demo": null,
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/rede-mocap/capa.svg",
+          "alt": "Capa do projecto rede-MOCAP",
+          "legenda": "Topologia MAN"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/rede-mocap/capa.svg",
+            "alt": "Diagrama da topologia MAN",
+            "legenda": "Substituir por captura do Packet Tracer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "arodisi-api",
+      "nome": "Arodisi API",
+      "subtitulo": "Consulta de utente por NIF ou BI",
+      "tipo": "API",
+      "categoria": "GovTech",
+      "estado": "codigo-aberto",
+      "destaque": true,
+      "confidencial": false,
+      "ano": 2023,
+      "duracao": "MVP público",
+      "papel": "Backend e frontend",
+      "cliente": {
+        "nome": null,
+        "sector": "Serviços digitais / governo",
+        "localizacao": "Angola"
+      },
+      "descricao": "API e interface para consultar dados de utente via NIF ou BI, a partir de portais públicos como SEPE e AGT — menos preenchimento manual, menos erros.",
+      "problema": "Equipas a copiar dados de BI e NIF à mão a partir de vários portais do Estado, com falhas e perda de tempo.",
+      "solucao": "Uma API REST e um cliente Vue que unifica a consulta e devolve os dados prontos a usar noutros sistemas.",
+      "impacto": [
+        "Consulta unificada por NIF ou BI",
+        "Menos erros de digitação em cadastros",
+        "Código aberto para outros desenvolvedores angolanos"
+      ],
+      "funcionalidades": [
+        "Consulta por NIF",
+        "Consulta por BI",
+        "Integração com endpoints públicos (SEPE, AGT e outros)",
+        "Interface de testes em Vue + Vuetify"
+      ],
+      "desafios": [
+        "Normalizar respostas de vários portais",
+        "Manter a interface simples para quem só precisa do dado"
+      ],
+      "tecnologias": ["PHP", "API REST", "Vue.js", "Vite", "Vuetify"],
+      "links": {
+        "site": "http://prsp.rf.gd/arodisi-api",
+        "github": "https://github.com/NzongoPedro/Arodisi-API",
+        "demo": "http://prsp.rf.gd/",
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/arodisi-api/capa.svg",
+          "alt": "Capa do projecto Arodisi API",
+          "legenda": "Consulta NIF / BI"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/arodisi-api/capa.svg",
+            "alt": "Captura da consulta por NIF",
+            "legenda": "Substituir por captura do formulário de consulta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prsp",
+      "nome": "PRSP",
+      "subtitulo": "Reservas para documentos e serviços públicos",
+      "tipo": "Plataforma",
+      "categoria": "Serviços públicos",
+      "estado": "codigo-aberto",
+      "destaque": false,
+      "confidencial": false,
+      "ano": 2023,
+      "duracao": "MVP",
+      "papel": "Full-stack",
+      "cliente": {
+        "nome": null,
+        "sector": "Administração pública / atendimento",
+        "localizacao": "Angola"
+      },
+      "descricao": "Plataforma de Reservas de Serviços Públicos: marcar lugar para aquisição de documentos e reduzir filas no atendimento.",
+      "problema": "Cidadãos a perder horas em filas para documentos, sem agenda nem previsão de atendimento.",
+      "solucao": "Serviço web para reservar horário e lugar, com visão para o balcão e para o cidadão.",
+      "impacto": [
+        "Atendimento com hora marcada",
+        "Menos concentração de pessoas no balcão",
+        "Prova de conceito para digitalização de filas"
+      ],
+      "funcionalidades": [
+        "Reserva de horário",
+        "Gestão de lugares / postos",
+        "Acompanhamento do pedido",
+        "Painel de atendimento"
+      ],
+      "desafios": [
+        "Fila digital sem autenticação pesada",
+        "Horários e capacidade real do balcão"
+      ],
+      "tecnologias": ["JavaScript", "PHP", "HTML"],
+      "links": {
+        "site": "http://prsp.rf.gd/",
+        "github": "https://github.com/Nzongo-Pedro/PSRSP",
+        "demo": "http://prsp.rf.gd/",
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/prsp/capa.svg",
+          "alt": "Capa do projecto PRSP",
+          "legenda": "Reservas de serviços públicos"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/prsp/capa.svg",
+            "alt": "Captura do ecrã de reserva",
+            "legenda": "Substituir por captura do fluxo de reserva"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-api",
+      "nome": "product-api",
+      "subtitulo": "API de catálogo para lojas e integrações",
+      "tipo": "API",
+      "categoria": "E-commerce / integrações",
+      "estado": "codigo-aberto",
+      "destaque": false,
+      "confidencial": false,
+      "ano": 2025,
+      "duracao": "API de referência",
+      "papel": "Backend",
+      "cliente": {
+        "nome": null,
+        "sector": "Comércio electrónico",
+        "localizacao": "Angola"
+      },
+      "descricao": "API de produtos em Laravel para catálogos, lojas e outras aplicações web consumirem um inventário único.",
+      "problema": "Front-ends e parceiros a duplicar dados de produto em vez de consumir uma fonte única.",
+      "solucao": "API REST com Laravel para listar, criar e actualizar produtos, pronta a ligar a um catálogo ou loja.",
+      "impacto": [
+        "Uma fonte de verdade para o catálogo",
+        "Integração mais rápida com novos canais de venda"
+      ],
+      "funcionalidades": [
+        "CRUD de produtos",
+        "Endpoints REST",
+        "Base para autenticação e loja"
+      ],
+      "desafios": [
+        "Contrato de API claro para o frontend",
+        "Estrutura Laravel reutilizável"
+      ],
+      "tecnologias": ["PHP", "Laravel", "Blade", "API REST"],
+      "links": {
+        "site": null,
+        "github": "https://github.com/Nzongo-Pedro/product-api",
+        "demo": null,
+        "documentacao": null
+      },
+      "imagens": {
+        "capa": {
+          "ficheiro": "assets/projetos/product-api/capa.svg",
+          "alt": "Capa do projecto product-api",
+          "legenda": "API de produtos"
+        },
+        "galeria": [
+          {
+            "ficheiro": "assets/projetos/product-api/capa.svg",
+            "alt": "Captura da documentação da API",
+            "legenda": "Substituir por captura do Swagger ou Postman"
+          }
+        ]
+      }
+    }
+  ]
+}

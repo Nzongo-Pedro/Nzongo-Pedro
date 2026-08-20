@@ -394,6 +394,8 @@ h2 {
   display: flex;
   flex-direction: column;
   min-height: 260px;
+  padding: 0;
+  overflow: hidden;
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
@@ -402,18 +404,43 @@ h2 {
   background: var(--card-hover);
 }
 
+.project-media {
+  aspect-ratio: 16 / 9;
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--line);
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.2rem 1.3rem 1.35rem;
+}
+
 .tag {
   display: inline-block;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.55rem;
 }
 
 .project h3 {
   font-size: 1.3rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+
+.project-tagline {
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
 }
 
 .project p {
@@ -421,10 +448,26 @@ h2 {
   flex: 1;
 }
 
+.project-stack {
+  margin: 0.9rem 0 0.2rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
 .project-link {
-  margin-top: 1.2rem;
   color: var(--cyan);
   font-size: 0.92rem;
+}
+
+.project-empty,
+.project-status {
+  color: var(--muted);
+  grid-column: 1 / -1;
 }
 
 .teach-grid {
