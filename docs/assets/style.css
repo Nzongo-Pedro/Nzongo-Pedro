@@ -92,7 +92,6 @@ button,
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   min-height: 72px;
   gap: 1rem;
 }
@@ -123,6 +122,7 @@ button,
   list-style: none;
   color: var(--muted);
   font-size: 0.95rem;
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -154,6 +154,12 @@ button,
   color: var(--text);
   border-radius: 12px;
   cursor: pointer;
+}
+
+.nav-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .hero {
@@ -363,12 +369,28 @@ h2 {
 }
 
 .skills-grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 220px;
 }
 
 .skill h3 {
   font-size: 1.05rem;
   margin-bottom: 0.9rem;
+}
+
+.skill .chips {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 0.5rem;
 }
 
 .chips {
@@ -384,6 +406,22 @@ h2 {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 999px;
   padding: 0.32rem 0.65rem;
+}
+
+.skill .chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 42px;
+  margin: 0;
+  border-radius: 12px;
+  padding: 0.55rem 0.5rem;
+  text-align: center;
+}
+
+.skill .chip:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }
 
 .project-grid {
@@ -460,8 +498,178 @@ h2 {
 }
 
 .project-link {
+  display: inline-block;
+  margin-top: 1rem;
   color: var(--cyan);
   font-size: 0.92rem;
+}
+
+a.project {
+  color: inherit;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.page-main {
+  padding-top: 1.5rem;
+}
+
+.detail-hero h1 {
+  font-size: clamp(2.1rem, 5vw, 3.6rem);
+  max-width: 16ch;
+  margin: 0.4rem 0 1rem;
+}
+
+.detail-hero .kicker a {
+  color: var(--gold);
+}
+
+.detail-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+}
+
+.detail-facts p {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
+  color: var(--muted);
+}
+
+.detail-facts strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+
+.detail-cover {
+  margin: 2rem 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.detail-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.detail-copy {
+  font-size: 1.12rem;
+  color: var(--muted);
+  max-width: 68ch;
+  margin-bottom: 1.4rem;
+}
+
+.detail-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail-split h2,
+.detail-block h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.detail-split p,
+.detail-block p {
+  color: var(--muted);
+}
+
+.detail-block {
+  margin-bottom: 1rem;
+}
+
+.detail-list {
+  padding-left: 1.1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.45rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery-shot {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--bg-soft);
+  cursor: zoom-in;
+}
+
+.gallery-shot img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.gallery figcaption {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin-top: 0.45rem;
+}
+
+.detail-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 2.2rem 0 1rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.detail-nav a:last-child {
+  text-align: right;
+}
+
+.lightbox {
+  width: min(960px, 92vw);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 0;
+  background: var(--bg);
+}
+
+.lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.lightbox img {
+  width: 100%;
+  display: block;
+}
+
+.lightbox form {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.7rem;
 }
 
 .project-empty,
@@ -570,7 +778,10 @@ h2 {
   .skills-grid,
   .project-grid,
   .teach-grid,
-  .contact-grid {
+  .contact-grid,
+  .detail-split,
+  .detail-facts,
+  .gallery {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -587,6 +798,10 @@ h2 {
   .nav-toggle {
     display: grid;
     place-items: center;
+  }
+
+  .nav-tools {
+    margin-left: auto;
   }
 
   .nav-links {
@@ -610,12 +825,20 @@ h2 {
   .skills-grid,
   .project-grid,
   .teach-grid,
-  .contact-grid {
+  .contact-grid,
+  .detail-split,
+  .detail-facts,
+  .gallery,
+  .detail-nav {
     grid-template-columns: 1fr;
   }
 
   .section {
     padding: 3.2rem 0;
+  }
+
+  .detail-nav a:last-child {
+    text-align: left;
   }
 }
 
