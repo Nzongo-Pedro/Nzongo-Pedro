@@ -1,5 +1,7 @@
 # NzongoPedro
 
+**Portfólio:** [nzongo-pedro.github.io/NzongoPedro](https://nzongo-pedro.github.io/NzongoPedro/)
+
 ## 👨🏾‍💻 Sobre mim
 
 Sou **Nzongo Pedro**, também conhecido como **Mr. PHP**:
@@ -40,6 +42,7 @@ Educar. Inspirar. Automatizar. Afrontear o impossível.
 
 - GitHub: [@Nzongo-Pedro](https://github.com/Nzongo-Pedro)
 - E-mail: **nzongopedro3@gmail.com**
+- WhatsApp: [+244 956 367 602](https://wa.me/244956367602) · [+244 942 481 988](https://wa.me/244942481988)
 - Localização: **Luanda, Angola**
 
 ---

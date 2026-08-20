@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="product-api">
+  <rect width="960" height="540" fill="#10141c"/>
+  <rect x="48" y="40" width="864" height="460" rx="20" fill="#151a24" stroke="#2a3140"/>
+  <circle cx="84" cy="76" r="7" fill="#d7263d"/>
+  <circle cx="108" cy="76" r="7" fill="#e3b34c"/>
+  <circle cx="132" cy="76" r="7" fill="#7ec8c4"/>
+  <rect x="80" y="120" width="800" height="40" rx="8" fill="#1b2230"/>
+  <rect x="80" y="176" width="800" height="40" rx="8" fill="#1b2230"/>
+  <rect x="80" y="232" width="800" height="40" rx="8" fill="#1b2230"/>
+  <rect x="80" y="288" width="800" height="40" rx="8" fill="#1b2230"/>
+  <text x="100" y="206" fill="#7ec8c4" font-family="Consolas, monospace" font-size="16">POST /api/produtos</text>
+  <text x="480" y="400" text-anchor="middle" fill="#f4f0ea" font-family="Arial, sans-serif" font-size="34" font-weight="700">product-api</text>
+  <text x="480" y="438" text-anchor="middle" fill="#9b968c" font-family="Arial, sans-serif" font-size="16">Laravel · REST · catálogo</text>
+</svg>

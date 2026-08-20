@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Arodisi API">
+  <rect width="960" height="540" fill="#10141c"/>
+  <rect x="48" y="40" width="864" height="460" rx="20" fill="#151a24" stroke="#2a3140"/>
+  <circle cx="84" cy="76" r="7" fill="#d7263d"/>
+  <circle cx="108" cy="76" r="7" fill="#e3b34c"/>
+  <circle cx="132" cy="76" r="7" fill="#7ec8c4"/>
+  <rect x="80" y="120" width="800" height="48" rx="10" fill="#1b2230"/>
+  <text x="100" y="150" fill="#7ec8c4" font-family="Consolas, monospace" font-size="18">GET /utente?nif=</text>
+  <rect x="80" y="188" width="380" height="260" rx="14" fill="#1b2230"/>
+  <rect x="484" y="188" width="396" height="260" rx="14" fill="#1b2230"/>
+  <text x="480" y="330" text-anchor="middle" fill="#f4f0ea" font-family="Arial, sans-serif" font-size="34" font-weight="700">Arodisi API</text>
+  <text x="480" y="368" text-anchor="middle" fill="#7ec8c4" font-family="Arial, sans-serif" font-size="16">Consulta NIF · BI · SEPE · AGT</text>
+</svg>

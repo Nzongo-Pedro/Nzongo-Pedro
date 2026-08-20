@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="rede-MOCAP">
+  <rect width="960" height="540" fill="#10141c"/>
+  <rect x="48" y="40" width="864" height="460" rx="20" fill="#151a24" stroke="#2a3140"/>
+  <circle cx="240" cy="220" r="28" fill="none" stroke="#e3b34c" stroke-width="3"/>
+  <circle cx="480" cy="180" r="28" fill="none" stroke="#7ec8c4" stroke-width="3"/>
+  <circle cx="720" cy="220" r="28" fill="none" stroke="#d7263d" stroke-width="3"/>
+  <circle cx="360" cy="360" r="22" fill="none" stroke="#9b968c" stroke-width="2"/>
+  <circle cx="600" cy="360" r="22" fill="none" stroke="#9b968c" stroke-width="2"/>
+  <line x1="268" y1="220" x2="452" y2="180" stroke="#2a3140" stroke-width="2"/>
+  <line x1="508" y1="180" x2="692" y2="220" stroke="#2a3140" stroke-width="2"/>
+  <line x1="480" y1="208" x2="480" y2="320" stroke="#2a3140" stroke-width="2"/>
+  <line x1="360" y1="338" x2="452" y2="200" stroke="#2a3140" stroke-width="2"/>
+  <line x1="600" y1="338" x2="508" y2="200" stroke="#2a3140" stroke-width="2"/>
+  <text x="480" y="455" text-anchor="middle" fill="#f4f0ea" font-family="Arial, sans-serif" font-size="34" font-weight="700">rede-MOCAP</text>
+  <text x="480" y="488" text-anchor="middle" fill="#e3b34c" font-family="Arial, sans-serif" font-size="16">MAN · VoIP · DHCP · CME</text>
+</svg>

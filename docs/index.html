@@ -1,77 +1,252 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nzongo Pedro — Portfólio</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <meta name="description" content="Nzongo Pedro (Mr. PHP): engenheiro de telecomunicações, desenvolvedor web e professor em Luanda, Angola." />
+  <meta name="theme-color" content="#090b10" />
+  <meta property="og:title" content="Nzongo Pedro — Portfólio" />
+  <meta property="og:description" content="Engenheiro de Telecomunicações, desenvolvedor web e professor. Soluções que conectam pessoas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nzongo-pedro.github.io/NzongoPedro/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
-    <div class="max-w-4xl mx-auto p-8 flex items-center gap-6">
-      <img src="assets/avatar-placeholder.png" alt="Avatar" class="w-24 h-24 rounded-full border-4 border-white object-cover">
-      <div>
-        <h1 class="text-3xl font-bold">Nzongo Pedro <span class="text-sm ml-2 bg-white/20 px-2 py-1 rounded">Mr. PHP</span></h1>
-        <p class="mt-1">Engenheiro de Telecomunicações • Desenvolvedor Web • Professor</p>
-        <p class="mt-2 text-sm">Luanda, Angola — <a class="underline" href="mailto:nzongopedro3@gmail.com">nzongopedro3@gmail.com</a></p>
-      </div>
+<body>
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#topo">
+        <span class="brand-mark">NP</span>
+        Nzongo Pedro
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+      <ul class="nav-links" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#ensino">Ensino</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto p-8 space-y-10">
-    <section id="sobre">
-      <h2 class="text-2xl font-semibold mb-3">Sobre mim</h2>
-      <p>Sou <strong>Nzongo Pedro</strong>, também conhecido como <strong>Mr. PHP</strong>. Engenheiro de Telecomunicações e professor com paixão por criar, conectar e automatizar soluções que impactam pessoas.</p>
+  <main id="conteudo">
+    <section class="wrap hero" id="topo">
+      <div>
+        <p class="eyebrow"><span class="dot"></span> Disponível para projetos</p>
+        <h1>Nzongo Pedro <span class="alias">Mr. PHP</span></h1>
+        <p class="lede">Engenheiro de Telecomunicações, desenvolvedor web e professor. Crio sistemas que ligam pessoas, escolas e serviços.</p>
+        <p class="hero-meta">Luanda, Angola · PHP, Laravel, Vue, React e redes</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn btn-ghost" href="https://wa.me/244956367602" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="portrait">
+        <img
+          src="https://avatars.githubusercontent.com/u/216593846?v=4"
+          alt="Retrato de Nzongo Pedro"
+          width="340"
+          height="340"
+          onerror="this.onerror=null;this.src='assets/avatar.svg'"
+        />
+        <p class="badge">Luanda · Angola</p>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2 class="text-2xl font-semibold mb-3">Skills Técnicas</h2>
-      <div class="grid sm:grid-cols-2 gap-4">
-        <div class="p-4 bg-white rounded shadow">
-          <h3 class="font-medium">Back-End</h3>
-          <p class="text-sm">PHP (Laravel, Slim), Node.js</p>
+    <section class="section" id="sobre">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Sobre mim</p>
+            <h2>Código, redes e sala de aula</h2>
+          </div>
         </div>
-        <div class="p-4 bg-white rounded shadow">
-          <h3 class="font-medium">Front-End</h3>
-          <p class="text-sm">Vue.js, React.js, Tailwind, Bootstrap</p>
-        </div>
-        <div class="p-4 bg-white rounded shadow">
-          <h3 class="font-medium">Redes</h3>
-          <p class="text-sm">Topologias MAN, OSPF, VoIP, Cisco Packet Tracer</p>
-        </div>
-        <div class="p-4 bg-white rounded shadow">
-          <h3 class="font-medium">Outros</h3>
-          <p class="text-sm">Git, Docker, Swagger, APIs RESTful</p>
+        <div class="about-grid">
+          <article class="card about-copy">
+            <p>Sou <strong>Nzongo Pedro</strong>, também conhecido como <strong>Mr. PHP</strong>. Angolano de raiz, engenheiro de telecomunicações e professor com vontade de criar, conectar e automatizar.</p>
+            <p>Trabalho no cruzamento entre software e infraestrutura: APIs, plataformas web e redes (MAN, VoIP, OSPF). O objectivo é simples — soluções com impacto directo na vida das pessoas.</p>
+            <p>Educar. Inspirar. Automatizar. Enfrentar o impossível.</p>
+          </article>
+          <div class="stats">
+            <div class="card stat">
+              <strong>Full-stack</strong>
+              <span>PHP, Laravel, Vue e React</span>
+            </div>
+            <div class="card stat">
+              <strong>Redes</strong>
+              <span>MAN, OSPF, VoIP e Cisco</span>
+            </div>
+            <div class="card stat">
+              <strong>Docência</strong>
+              <span>Informática, TLP, TREEI e Arduino</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="projetos">
-      <h2 class="text-2xl font-semibold mb-3">Projetos em destaque</h2>
-      <ul class="space-y-3">
-        <li class="p-4 bg-white rounded shadow">
-          <strong>amgolar</strong> — Plataforma de imóveis angolana para venda e arrendamento.
-        </li>
-        <li class="p-4 bg-white rounded shadow">
-          <strong>SIGUNISPEKA</strong> — Sistema de gestão universitária (inscrição e confirmação de alunos).
-        </li>
-        <li class="p-4 bg-white rounded shadow">
-          <strong>rede-MOCAP</strong> — Projeto técnico de interligação MAN com VoIP, DHCP e CME.
-        </li>
-      </ul>
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Stack</p>
+            <h2>Skills técnicas</h2>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <article class="card skill">
+            <h3>Back-end</h3>
+            <div class="chips">
+              <span class="chip">PHP</span>
+              <span class="chip">Laravel</span>
+              <span class="chip">Slim</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">APIs REST</span>
+            </div>
+          </article>
+          <article class="card skill">
+            <h3>Front-end</h3>
+            <div class="chips">
+              <span class="chip">Vue.js</span>
+              <span class="chip">React.js</span>
+              <span class="chip">Tailwind</span>
+              <span class="chip">Bootstrap</span>
+            </div>
+          </article>
+          <article class="card skill">
+            <h3>Redes</h3>
+            <div class="chips">
+              <span class="chip">Topologias MAN</span>
+              <span class="chip">OSPF</span>
+              <span class="chip">VoIP</span>
+              <span class="chip">Packet Tracer</span>
+            </div>
+          </article>
+          <article class="card skill">
+            <h3>Ferramentas</h3>
+            <div class="chips">
+              <span class="chip">Git</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Swagger</span>
+              <span class="chip">SQL</span>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="contato">
-      <h2 class="text-2xl font-semibold mb-3">Contato</h2>
-      <p>GitHub: <a class="underline" href="https://github.com/Nzongo-Pedro">@Nzongo-Pedro</a></p>
-      <p>Email: <a class="underline" href="mailto:nzongopedro3@gmail.com">nzongopedro3@gmail.com</a></p>
+    <section class="section" id="projetos">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Trabalho</p>
+            <h2>Projetos em destaque</h2>
+          </div>
+        </div>
+        <div class="project-grid" data-projectos>
+          <p class="project-status">A carregar projectos…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ensino">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Sala de aula</p>
+            <h2>O que ensino</h2>
+          </div>
+        </div>
+        <div class="teach-grid">
+          <article class="card teach">
+            <h3>Informática</h3>
+            <p>Fundamentos, lógica e prática para quem está a entrar na área.</p>
+          </article>
+          <article class="card teach">
+            <h3>TLP</h3>
+            <p>Técnicas de linguagem de programação com foco em raciocínio e código limpo.</p>
+          </article>
+          <article class="card teach">
+            <h3>TREEI</h3>
+            <p>Redes eléctricas e electrónicas aplicadas ao contexto profissional.</p>
+          </article>
+          <article class="card teach">
+            <h3>Arduino</h3>
+            <p>Electrónica digital, sensores e automação em projectos reais.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Contacto</p>
+            <h2>Vamos construir algo</h2>
+          </div>
+        </div>
+        <div class="contact-grid">
+          <article class="card contact-copy">
+            <p>Aberto a projectos, aulas e colaborações em software e redes. Escreve-me ou encontra-me nestes canais.</p>
+            <ul class="contact-list">
+              <li>
+                <a href="https://wa.me/244956367602" target="_blank" rel="noopener noreferrer">
+                  <span>WhatsApp</span>
+                  <span>+244 956 367 602</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/244942481988" target="_blank" rel="noopener noreferrer">
+                  <span>WhatsApp</span>
+                  <span>+244 942 481 988</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:nzongopedro3@gmail.com">
+                  <span>E-mail</span>
+                  <span>nzongopedro3@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Nzongo-Pedro" target="_blank" rel="noopener noreferrer">
+                  <span>GitHub</span>
+                  <span>@Nzongo-Pedro</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/nzongo-pedro-31424827a" target="_blank" rel="noopener noreferrer">
+                  <span>LinkedIn</span>
+                  <span>Nzongo Pedro</span>
+                </a>
+              </li>
+            </ul>
+          </article>
+          <blockquote class="card quote">
+            <p>“Se o código não muda o mundo, ao menos muda quem o escreve.”</p>
+          </blockquote>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="max-w-4xl mx-auto p-8 text-center text-sm text-gray-500">
-    <p>“Se o código não muda o mundo, ao menos muda quem o escreve.”</p>
-    <p class="mt-2">Versão estática de portfólio — gerado para GitHub Pages</p>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p><span class="flag" aria-hidden="true"><span></span><span></span><span></span></span> Nzongo Pedro · Luanda</p>
+      <p>© <span data-year></span> · Portfólio no GitHub Pages</p>
+    </div>
   </footer>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
