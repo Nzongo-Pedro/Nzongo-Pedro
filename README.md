@@ -1,65 +1,67 @@
 # Nzongo Pedro
 
-**Engenheiro de Software · Engenheiro de Telecomunicações · Desenvolvedor Web · DevOps · IoT · Formador Técnico**
+**Engenheiro de Software · Engenheiro de Telecomunicações · DevOps · IoT · Formador Técnico**
+
+Também conhecido como **Mr. PHP**.
+
+Construo sistemas web, APIs, infraestruturas e soluções IoT com foco em **arquitetura de software, backend, automação, infraestrutura de produção e integração entre software e sistemas físicos**.
+
+Minha atuação principal está no ecossistema **PHP/Laravel**, complementado por Linux, Docker, Git, CI/CD, servidores web, bases de dados, cloud, telecomunicações e sistemas embarcados.
+
+O objetivo não é apenas fazer código funcionar localmente. É construir sistemas que possam ser **implantados, mantidos, monitorizados, protegidos e evoluídos**.
+
+**Luanda, Angola**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Nzongo--Pedro-181717?style=flat-square&logo=github)](https://github.com/Nzongo-Pedro)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://nzongo-pedro.github.io/NzongoPedro/)
+[![Email](https://img.shields.io/badge/Email-nzongopedro3%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nzongopedro3@gmail.com)
 
 ---
 
-## Sobre Mim
-
-Sou **Nzongo Pedro**, também conhecido como **Mr. PHP**, Engenheiro de Software e Engenheiro de Telecomunicações, focado no desenvolvimento de sistemas web, APIs, infraestrutura e soluções conectadas.
-
-O meu trabalho está na interseção entre **engenharia de software, telecomunicações, DevOps, infraestrutura cloud, IoT e formação técnica**.
-
-Desenvolvo aplicações com forte foco em arquitetura backend, desenvolvimento de APIs, bases de dados, automação de deploy e infraestrutura de produção. Também trabalho com sistemas embarcados e tecnologias de telecomunicações, ligando software à infraestrutura física e a necessidades reais.
-
-A minha abordagem é prática: construir software que possa ser **implantado, mantido, monitorizado e evoluído** para além do ambiente de desenvolvimento.
-
-**Baseado em Luanda, Angola.**
-
----
-
-## Áreas de Engenharia
+## Perfil Técnico
 
 ### Engenharia de Software
 
-- Desenvolvimento backend com PHP e Laravel
-- Desenvolvimento e integração de APIs RESTful
-- Autenticação e autorização
-- Base de Dados architecture and optimization
-- Arquiteturas MVC e orientadas a serviços
+- PHP e Laravel
 - Desenvolvimento de aplicações web
-- Deploy de aplicações e ambientes de produção
-- Fluxos de desenvolvimento baseados em Git
+- APIs RESTful e arquitetura API-first
+- Arquitetura backend
+- MVC e arquitetura orientada a serviços
+- Autenticação e autorização
+- Integração entre sistemas
+- Modelação e otimização de bases de dados
+- Sistemas SaaS e multi-tenant
+- Desenvolvimento orientado a requisitos
+- Deploy e manutenção de aplicações em produção
 
 ### DevOps e Infraestrutura
 
 - Linux / Ubuntu
-- Docker e aplicações contentorizadas
-- Git and GitHub
-- Pipelines CI/CD
-- Nginx and Apache
-- HTTPS, SSL/TLS e configuração de domínios
-- Ambientes cloud
-- Produção databases
-- Administração de servidores
-- Monitorização and observability
-- Automação de infraestrutura
+- Docker e Docker Compose
+- Git e GitHub
+- CI/CD
+- GitHub Actions
+- Nginx e Apache
+- HTTPS / SSL/TLS
+- DNS e domínios
+- Administração de servidores Linux
+- Cloud infrastructure
+- Bases de dados em produção
+- Automação
+- Monitorização e observabilidade
 
 ### Telecomunicações e Redes
 
-- Redes IP
 - TCP/IP
-- Subnetting e arquitetura de redes
+- Redes IP
+- Subnetting
 - Routing
 - OSPF
 - DHCP
 - VoIP
-- Cisco technologies
+- Cisco
 - Cisco Packet Tracer
-- Rede infrastructure design
+- Arquitetura e infraestrutura de redes
 
 ### IoT e Sistemas Embarcados
 
@@ -68,193 +70,203 @@ A minha abordagem é prática: construir software que possa ser **implantado, ma
 - Sensores e atuadores
 - GPS/GNSS
 - MPU6050 / MPU9250
-- Ultrasonic sensors
-- Servo motors
+- Sensores ultrassónicos
+- Servomotores
 - I2C
-- UART / Serial communication
-- Servidores web embarcados
-- Integração entre IoT e APIs
-- Integração entre hardware e software
-
-### Formação e Educação
-
-Experiência como formador e professor técnico nas áreas de:
-
-- Informática
-- Telecomunicações
-- Sistemas Digitais
-- TLP (Técnicas de Linguagens de Programação)
-- Base de Dados
-- TREI
-- Eletrónica Digital
-- Arduino e sistemas embarcados
-- Desenvolvimento prático de software
+- UART / comunicação serial
+- Embedded web servers
+- Integração IoT com APIs
+- Integração hardware/software
 
 ---
 
-## Stack Tecnológica
+# Stack Tecnológica
 
-### Linguagens
+## Backend
 
-[![PHP](https://skillicons.dev/icons?i=php)](https://www.php.net/)
-[![JavaScript](https://skillicons.dev/icons?i=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://skillicons.dev/icons?i=typescript)](https://www.typescriptlang.org/)
-[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![C++](https://skillicons.dev/icons?i=cpp)](https://isocpp.org/)
+<p align="left">
+  <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" height="48" alt="PHP"></a>
+  <a href="https://laravel.com/"><img src="https://skillicons.dev/icons?i=laravel" height="48" alt="Laravel"></a>
+</p>
 
-### Backend e Web
+## Frontend
 
-[![Laravel](https://skillicons.dev/icons?i=laravel)](https://laravel.com/)
-[![React](https://skillicons.dev/icons?i=react)](https://react.dev/)
-[![Vue](https://skillicons.dev/icons?i=vue)](https://vuejs.org/)
-[![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
-[![Bootstrap](https://skillicons.dev/icons?i=bootstrap)](https://getbootstrap.com/)
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="48" alt="HTML"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="48" alt="CSS"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" height="48" alt="JavaScript"></a>
+  <a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" height="48" alt="Tailwind CSS"></a>
+  <a href="https://getbootstrap.com/"><img src="https://skillicons.dev/icons?i=bootstrap" height="48" alt="Bootstrap"></a>
+</p>
 
-### Bases de Dados
+## Databases
 
-[![MySQL](https://skillicons.dev/icons?i=mysql)](https://www.mysql.com/)
-[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org/)
-[![Redis](https://skillicons.dev/icons?i=redis)](https://redis.io/)
+<p align="left">
+  <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="48" alt="MySQL"></a>
+  <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" height="48" alt="PostgreSQL"></a>
+  <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" height="48" alt="Redis"></a>
+</p>
 
-### DevOps e Infraestrutura
+## DevOps / Infrastructure
 
-[![Linux](https://skillicons.dev/icons?i=linux)](https://www.linux.org/)
-[![Ubuntu](https://skillicons.dev/icons?i=ubuntu)](https://ubuntu.com/)
-[![Docker](https://skillicons.dev/icons?i=docker)](https://www.docker.com/)
-[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)
-[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/)
-[![Nginx](https://skillicons.dev/icons?i=nginx)](https://nginx.org/)
-[![Apache](https://skillicons.dev/icons?i=apache)](https://httpd.apache.org/)
-[![GitHub Actions](https://skillicons.dev/icons?i=githubactions)](https://github.com/features/actions)
+<p align="left">
+  <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux"></a>
+  <a href="https://ubuntu.com/"><img src="https://skillicons.dev/icons?i=ubuntu" height="48" alt="Ubuntu"></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" height="48" alt="Docker"></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" height="48" alt="Git"></a>
+  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" height="48" alt="GitHub"></a>
+  <a href="https://nginx.org/"><img src="https://skillicons.dev/icons?i=nginx" height="48" alt="Nginx"></a>
+  <a href="https://httpd.apache.org/"><img src="https://skillicons.dev/icons?i=apache" height="48" alt="Apache"></a>
+  <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions"></a>
+</p>
 
-### Cloud, Monitorização e APIs
+## APIs / Tools
 
-[![Postman](https://skillicons.dev/icons?i=postman)](https://www.postman.com/)
-[![Swagger](https://skillicons.dev/icons?i=swagger)](https://swagger.io/)
+<p align="left">
+  <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="48" alt="Postman"></a>
+  <a href="https://swagger.io/"><img src="https://skillicons.dev/icons?i=swagger" height="48" alt="Swagger"></a>
+</p>
 
-### Embedded & IoT
+## Embedded / IoT
 
-[![Arduino](https://skillicons.dev/icons?i=arduino)](https://www.arduino.cc/)
-[![PlatformIO](https://skillicons.dev/icons?i=platformio)](https://platformio.org/)
-[![Raspberry Pi](https://skillicons.dev/icons?i=raspberrypi)](https://www.raspberrypi.com/)
+<p align="left">
+  <a href="https://www.arduino.cc/"><img src="https://skillicons.dev/icons?i=arduino" height="48" alt="Arduino"></a>
+  <a href="https://platformio.org/"><img src="https://skillicons.dev/icons?i=platformio" height="48" alt="PlatformIO"></a>
+</p>
 
 ---
 
-## Fluxo de Engenharia
+# Engenharia na Prática
 
 ```text
-Requisitos
-     ↓
-Arquitetura
-     ↓
-Implementação
-     ↓
-Testes
-     ↓
-Git / GitHub
-     ↓
-CI/CD
-     ↓
-Docker
-     ↓
-Nginx / Apache
-     ↓
-HTTPS / Domain
-     ↓
-Produção
-     ↓
-Monitorização
+                    REQUIREMENTS
+                         │
+                         ▼
+                    ARCHITECTURE
+                         │
+                         ▼
+                    DEVELOPMENT
+                         │
+                         ▼
+                       TESTS
+                         │
+                         ▼
+                    GIT / GITHUB
+                         │
+                         ▼
+                       CI/CD
+                         │
+                         ▼
+                      DOCKER
+                         │
+                         ▼
+                 NGINX / APACHE
+                         │
+                         ▼
+                    HTTPS / DNS
+                         │
+                         ▼
+                    PRODUCTION
+                         │
+                         ▼
+             MONITORING / LOGGING
 ```
 
-O objetivo não é simplesmente fazer uma aplicação funcionar localmente.
+A engenharia não termina quando a aplicação funciona localmente.
 
-O objetivo é construir software que possa ser **implantado, mantido, monitorizado e evoluído**.
-
----
-
-## Projetos em Destaque
-
-### ColeGius
-
-Plataforma multi-tenant de gestão escolar desenvolvida para centralizar operações académicas e administrativas.
-
-**Foco:** Laravel, bases de dados, autenticação, multi-tenancy, gestão académica e arquitetura web.
-
-### Corporate E-Learning & Compliance Platform
-
-Plataforma corporativa de formação focada em Compliance, Gestão de Risco, AML/CFT, Ética, Governança, Auditoria, Controlo Interno, ESG e Proteção de Dados.
-
-A plataforma é orientada para requisitos corporativos como formações obrigatórias, avaliações, certificados, evidências de conclusão e auditabilidade.
-
-**Foco:** Laravel, APIs, bases de dados, autenticação, conteúdos multimédia, relatórios e arquitetura empresarial.
-
-### EduBridge
-
-Plataforma de apoio educacional que conecta estudantes com dificuldades financeiras a apoiadores interessados em contribuir para os seus objetivos académicos.
-
-**Arquitetura:** student, supporter and administrator environments with contribution tracking and campaign management.
-
-### KwanzaGuard
-
-Projeto focado na criação de tecnologia para proteção financeira, prevenção de fraudes e fortalecimento da confiança digital no contexto angolano.
-
-**Foco:** engenharia de software, conceitos de segurança, tecnologia financeira e ecossistemas digitais locais.
-
-### Smart Home IoT
-
-Protótipo IoT que integra ESP32, sensores, atuadores e um backend Laravel.
-
-O sistema inclui monitorização ambiental, deteção de presença, automação de iluminação, controlo de ventilação e comunicação de eventos entre hardware embarcado e serviços web.
-
-**Tecnologias:** ESP32, Arduino, sensores, I2C, UART, Laravel, API REST e interfaces web.
+O ciclo continua em **deploy, segurança, observabilidade, manutenção, otimização e evolução do sistema**.
 
 ---
 
-## Arquitetura Interests
+# Projetos em Destaque
 
-### Aplicações Web e Cloud
+## PRSP — Plataforma de Reservas para Serviços Públicos
+
+Sistema orientado à gestão de reservas de serviços públicos, com diferentes módulos e um núcleo de gestão centralizado.
+
+O projeto explora modelação de processos, gestão de utentes e organização de operações de atendimento.
+
+**Repositório:** https://github.com/Nzongo-Pedro/PSRSP
+
+## Product API
+
+API de gerenciamento de produtos construída com **Laravel 12**, **Domain-Driven Design (DDD)**, **BDD com Pest**, **PostgreSQL** e **Docker**.
+
+O projeto demonstra separação entre domínio, aplicação, infraestrutura e camada HTTP, além de regras de negócio, testes automatizados e ambiente reproduzível com containers.
+
+**Repositório:** https://github.com/Nzongo-Pedro/product-api
+
+## EufraMise
+
+Aplicação web pública desenvolvida com HTML, CSS/SCSS, JavaScript e Bootstrap, organizada como uma interface institucional responsiva.
+
+O projeto demonstra trabalho com frontend, organização de assets, componentes de interface e publicação via GitHub Pages.
+
+**Repositório:** https://github.com/Nzongo-Pedro/app-mise
+
+## Nanhonia
+
+Website institucional desenvolvido com HTML, CSS, Bootstrap e JavaScript, com foco em apresentação de marca, navegação responsiva e experiência web.
+
+**Repositório:** https://github.com/Nzongo-Pedro/home-nanhonia
+
+## Sistemas em desenvolvimento
+
+Além dos projetos públicos, trabalho em sistemas de maior dimensão e aplicações orientadas a problemas reais, incluindo:
+
+- **ColeGius** — gestão escolar multi-tenant
+- **Corporate E-Learning & Compliance** — formação corporativa, avaliações, certificados e evidências de auditoria
+- **EduBridge** — plataforma de apoio educacional
+- **KwanzaGuard** — segurança, prevenção de fraude e confiança digital
+- **Smart Home IoT** — automação residencial com ESP32 e backend Laravel
+
+---
+
+# Arquitetura de Sistemas
+
+## Web / SaaS
 
 ```text
-Cliente Web / Mobile
-        │
-        ▼
-     REST API
-        │
-        ▼
-    Aplicação
-     Backend
-        │
- ┌──────┼──────┐
- ▼      ▼      ▼
-DB     Cache   Queue
-        │
-        ▼
-   Infrastructure
-        │
- ┌──────┼──────────┐
- ▼      ▼          ▼
-Docker  Nginx    Monitorização
-        │
-        ▼
-     Produção
+                    Web / Mobile Client
+                           │
+                           ▼
+                        REST API
+                           │
+                           ▼
+                    Laravel Backend
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+           Database       Cache        Queue
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                     Infrastructure
+                           │
+                  ┌────────┼────────┐
+                  ▼        ▼        ▼
+                Docker   Nginx     CI/CD
+                  │
+                  ▼
+                Production
 ```
 
-### IoT Arquitetura
+## IoT
 
 ```text
-Sensores / ESP32 / Arduino
+Sensors / ESP32 / Arduino
           │
-       Rede
+          ▼
+     Network Layer
           │
           ▼
       REST / MQTT
           │
           ▼
-      API Backend
+       Backend API
           │
           ▼
-       Base de Dados
+        Database
           │
           ▼
       Web / Mobile
@@ -262,41 +274,102 @@ Sensores / ESP32 / Arduino
 
 ---
 
-## Estatísticas do GitHub
+# Telecomunicações
 
-![Nzongo Pedro GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nzongo-Pedro&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github)
+Minha formação em telecomunicações complementa a engenharia de software ao permitir compreender também a infraestrutura que sustenta os sistemas digitais.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nzongo-Pedro&layout=compact&langs_count=10&hide_border=true)
+```text
+Physical Layer
+      │
+      ▼
+Data Link
+      │
+      ▼
+Network
+      │
+      ▼
+Transport
+      │
+      ▼
+Applications
+```
+
+Áreas de interesse e atuação:
+
+- Redes IP
+- TCP/IP
+- Routing
+- OSPF
+- DHCP
+- Subnetting
+- VoIP
+- Cisco
+- Infraestrutura de redes
+- Comunicação de dados
 
 ---
 
-## Foco Atual
+# Formação Técnica
 
-Atualmente estou focado em:
+Também atuo como formador e professor técnico em áreas relacionadas com tecnologia e engenharia.
+
+- Informática
+- Programação
+- Técnicas de Linguagens de Programação (TLP)
+- Bases de Dados
+- Telecomunicações
+- Redes
+- Sistemas Digitais
+- TREI
+- Eletrónica Digital
+- Arduino
+- Sistemas embarcados
+- Desenvolvimento prático de software
+
+**Ensinar aquilo que compreendo faz parte da minha prática de engenharia.**
+
+---
+
+# GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nzongo-Pedro&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" height="170" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nzongo-Pedro&layout=compact&langs_count=8&hide_border=true" height="170" alt="Top Languages">
+</p>
+
+---
+
+# Foco Atual
 
 - Arquitetura de aplicações Laravel
-- Desenvolvimento API-first
+- APIs e desenvolvimento API-first
+- SaaS multi-tenant
 - DevOps e automação de deploy
-- Infraestrutura baseada em Docker
-- Desenvolvimento cloud
+- Docker e Linux
 - CI/CD
-- Monitorização and observability
-- Plataformas SaaS multi-tenant
-- Sistemas de e-learning
-- Plataformas IoT
-- Infraestrutura de telecomunicações
+- Cloud infrastructure
+- Deploy de aplicações
+- Monitorização e observabilidade
 - Arquitetura de software
-- Formação técnica
+- Sistemas IoT
+- Telecomunicações
+- Tecnologia educacional
 
 ---
 
-## Filosofia de Engenharia
+# Princípios de Engenharia
 
 > Construir sistemas que resolvem problemas reais.
 >
-> Compreender a infraestrutura por trás do software.
+> Código é apenas uma parte do sistema.
 >
-> Automatizar aquilo que não deve ser repetido manualmente.
+> Infraestrutura também é engenharia de software.
+>
+> Automatizar processos repetitivos.
+>
+> Projetar pensando em manutenção e evolução.
+>
+> Segurança deve fazer parte da arquitetura.
 >
 > Ensinar aquilo que compreendo.
 >
@@ -304,38 +377,31 @@ Atualmente estou focado em:
 
 ---
 
-## Portfólio
+# Contacto
 
-**Website:**  
-https://nzongo-pedro.github.io/NzongoPedro/
-
-**GitHub:**  
-https://github.com/Nzongo-Pedro
-
----
-
-## Contacto
-
-**Email:** [nzongopedro3@gmail.com](mailto:nzongopedro3@gmail.com)
-
+**GitHub:** https://github.com/Nzongo-Pedro  
+**Portfolio:** https://nzongo-pedro.github.io/NzongoPedro/  
+**Email:** [nzongopedro3@gmail.com](mailto:nzongopedro3@gmail.com)  
 **WhatsApp:** [+244 956 367 602](https://wa.me/244956367602)  
-**WhatsApp:** [+244 942 481 988](https://wa.me/244942481988)
-
 **Localização:** Luanda, Angola
 
 ---
 
-## Colaboração
+# Colaboração
 
-Tenho interesse em colaborar em projetos envolvendo:
+Tenho interesse em colaborar em projetos relacionados com:
 
 - Engenharia de software
-- Laravel and PHP
-- DevOps e Cloud
+- PHP / Laravel
+- APIs
+- DevOps
+- Cloud
+- Linux
+- Infraestrutura
 - Telecomunicações
-- Redeing
+- Redes
 - IoT
-- Tecnologia educacional
-- SaaS platforms
-- Software open source
-- Automação de infraestrutura
+- EdTech
+- SaaS
+- Automação
+- Open Source
