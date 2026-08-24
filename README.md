@@ -260,27 +260,15 @@ Sensores / ESP32 / Arduino
       Web / Mobile
 ```
 
-- ⚙️ Back-end: PHP (Laravel, Slim), Node.js, APIs RESTful
-- 🎨 Front-end: Vue.js, React.js, Tailwind, Bootstrap
-- 📡 Redes: Topologias MAN, OSPF, VoIP, Cisco Packet Tracer
-- 🛠 Ferramentas: Git, Docker, Swagger, SQL
-- 🧑🏾‍🏫 Ensino: Informática, TLP, TREEI, Arduino
+---
 
 ## Estatísticas do GitHub
 
-<<<<<<< feature/portfolio-site
 ![Nzongo Pedro GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nzongo-Pedro&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nzongo-Pedro&layout=compact&langs_count=10&hide_border=true)
 
 ---
-=======
-| Projeto       | Descrição                                                                 |
-|---------------|---------------------------------------------------------------------------|
-| amgolar       | Plataforma de imóveis angolana para venda e arrendamento                 |
-| SIGUNISPEKA   | Sistema de gestão universitária — inscrições e confirmação de alunos     |
-| rede-MOCAP    | Projeto técnico de interligação MAN com VoIP, DHCP e CME                 |
->>>>>>> main
 
 ## Foco Atual
 
