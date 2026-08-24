@@ -166,24 +166,6 @@ A engenharia não termina quando a aplicação funciona localmente. O ciclo cont
 
 ## Projetos em Destaque
 
-### Product API
-
-API de gerenciamento de produtos construída com **Laravel 12, Domain-Driven Design (DDD), BDD com Pest, PostgreSQL e Docker**.
-
-Demonstra separação entre domínio, aplicação, infraestrutura e camada HTTP, além de regras de negócio, testes automatizados e ambiente reproduzível com containers.
-
-[Ver repositório](https://github.com/Nzongo-Pedro/product-api)
-
-### PSRSP
-
-Sistema orientado à gestão de reservas de serviços públicos, explorando modelação de processos, gestão de utentes e organização das operações de atendimento.
-
-[Ver repositório](https://github.com/Nzongo-Pedro/PSRSP)
-
-### Smart Home IoT
-
-Protótipo IoT baseado em **ESP32**, sensores, atuadores e backend Laravel, integrando monitorização ambiental, deteção de presença, automação de iluminação, controlo de ventilação, I2C, UART e API REST.
-
 ### ColeGius
 
 Plataforma multi-tenant de gestão escolar para centralização de processos académicos e administrativos.
