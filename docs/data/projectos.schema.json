@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://nzongo-pedro.github.io/NzongoPedro/data/projectos.schema.json",
+  "$id": "https://nzongo-pedro.github.io/Nzongo-Pedro/data/projectos.schema.json",
   "title": "Portfólio de projectos",
   "description": "Catálogo de projectos para apresentar a clientes. Preencha links e capturas reais quando existirem; use null se não houver.",
   "type": "object",

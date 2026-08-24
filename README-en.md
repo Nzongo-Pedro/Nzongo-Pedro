@@ -3,7 +3,7 @@
 **Software Engineer · Telecommunications Engineer · Web Developer · DevOps · IoT · Technical Instructor**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Nzongo--Pedro-181717?style=flat-square&logo=github)](https://github.com/Nzongo-Pedro)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://nzongo-pedro.github.io/NzongoPedro/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://nzongo-pedro.github.io/Nzongo-Pedro/)
 
 ---
 
@@ -304,7 +304,7 @@ I'm currently focused on:
 ## Portfolio
 
 **Website:**  
-https://nzongo-pedro.github.io/NzongoPedro/
+https://nzongo-pedro.github.io/Nzongo-Pedro/
 
 **GitHub:**  
 https://github.com/Nzongo-Pedro

@@ -317,6 +317,16 @@ Também atuo como formador e professor técnico em:
 
 ---
 
+## Portfólio
+
+**Website:**  
+https://nzongo-pedro.github.io/Nzongo-Pedro/
+
+**GitHub:**  
+https://github.com/Nzongo-Pedro
+
+---
+
 ## Contacto
 
 **GitHub:** [Nzongo-Pedro](https://github.com/Nzongo-Pedro)  
