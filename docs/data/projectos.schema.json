@@ -4,42 +4,72 @@
   "title": "Portfólio de projectos",
   "description": "Catálogo de projectos para apresentar a clientes. Preencha links e capturas reais quando existirem; use null se não houver.",
   "type": "object",
-  "required": ["meta", "projectos"],
+  "required": [
+    "meta",
+    "projectos"
+  ],
   "additionalProperties": false,
   "properties": {
     "meta": {
       "type": "object",
-      "required": ["titulo", "actualizadoEm", "idioma"],
+      "required": [
+        "titulo",
+        "actualizadoEm",
+        "idioma"
+      ],
       "properties": {
-        "titulo": { "type": "string" },
-        "actualizadoEm": { "type": "string", "format": "date" },
-        "idioma": { "type": "string" },
-        "notas": { "type": "string" }
+        "titulo": {
+          "type": "string"
+        },
+        "actualizadoEm": {
+          "type": "string",
+          "format": "date"
+        },
+        "idioma": {
+          "type": "string"
+        },
+        "notas": {
+          "type": "string"
+        }
       }
     },
     "projectos": {
       "type": "array",
-      "items": { "$ref": "#/$defs/projecto" }
+      "items": {
+        "$ref": "#/$defs/projecto"
+      }
     }
   },
   "$defs": {
     "urlOuNulo": {
       "anyOf": [
-        { "type": "null" },
-        { "type": "string", "format": "uri" }
+        {
+          "type": "null"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
       ]
     },
     "imagem": {
       "type": "object",
-      "required": ["ficheiro", "alt"],
+      "required": [
+        "ficheiro",
+        "alt"
+      ],
       "additionalProperties": false,
       "properties": {
         "ficheiro": {
           "type": "string",
           "description": "Caminho relativo a docs/ (ex.: assets/projetos/amgolar/capa.webp)"
         },
-        "alt": { "type": "string" },
-        "legenda": { "type": "string" }
+        "alt": {
+          "type": "string"
+        },
+        "legenda": {
+          "type": "string"
+        }
       }
     },
     "projecto": {
@@ -60,7 +90,9 @@
           "pattern": "^[a-z0-9-]+$",
           "description": "Identificador estável, usado em pastas de imagens"
         },
-        "nome": { "type": "string" },
+        "nome": {
+          "type": "string"
+        },
         "subtitulo": {
           "type": "string",
           "description": "Frase curta para o cartão e para o cliente"
@@ -72,9 +104,15 @@
             "API",
             "Plataforma",
             "Infraestrutura de redes",
+            "Gestão Financeira",
+            "Gestão Documental",
             "Mobile",
             "IoT",
-            "Consultoria"
+            "Consultoria",
+            "Sistema",
+            "E-commerce",
+            "E-learning",
+            "Outros"
           ]
         },
         "categoria": {
@@ -91,23 +129,46 @@
             "em-curso"
           ]
         },
-        "destaque": { "type": "boolean" },
+        "destaque": {
+          "type": "boolean"
+        },
         "confidencial": {
           "type": "boolean",
           "description": "true se o código ou dados do cliente não podem ser públicos"
         },
-        "ano": { "type": "integer", "minimum": 2015 },
-        "duracao": { "type": "string" },
-        "papel": { "type": "string" },
+        "ano": {
+          "type": "integer",
+          "minimum": 2015
+        },
+        "duracao": {
+          "type": "string"
+        },
+        "papel": {
+          "type": "string"
+        },
         "cliente": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "properties": {
-            "nome": { "type": ["string", "null"] },
-            "sector": { "type": "string" },
-            "localizacao": { "type": "string" }
+            "nome": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "sector": {
+              "type": "string"
+            },
+            "localizacao": {
+              "type": "string"
+            }
           }
         },
-        "descricao": { "type": "string" },
+        "descricao": {
+          "type": "string"
+        },
         "problema": {
           "type": "string",
           "description": "Dor do cliente, em linguagem de negócio"
@@ -118,41 +179,63 @@
         },
         "impacto": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Resultados mensuráveis ou qualitativos"
         },
         "funcionalidades": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
         "desafios": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Decisões técnicas que mostram profundidade"
         },
         "tecnologias": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
         "links": {
           "type": "object",
           "additionalProperties": false,
           "properties": {
-            "site": { "$ref": "#/$defs/urlOuNulo" },
-            "github": { "$ref": "#/$defs/urlOuNulo" },
-            "demo": { "$ref": "#/$defs/urlOuNulo" },
-            "documentacao": { "$ref": "#/$defs/urlOuNulo" }
+            "site": {
+              "$ref": "#/$defs/urlOuNulo"
+            },
+            "github": {
+              "$ref": "#/$defs/urlOuNulo"
+            },
+            "demo": {
+              "$ref": "#/$defs/urlOuNulo"
+            },
+            "documentacao": {
+              "$ref": "#/$defs/urlOuNulo"
+            }
           }
         },
         "imagens": {
           "type": "object",
-          "required": ["capa"],
+          "required": [
+            "capa"
+          ],
           "additionalProperties": false,
           "properties": {
-            "capa": { "$ref": "#/$defs/imagem" },
+            "capa": {
+              "$ref": "#/$defs/imagem"
+            },
             "galeria": {
               "type": "array",
-              "items": { "$ref": "#/$defs/imagem" }
+              "items": {
+                "$ref": "#/$defs/imagem"
+              }
             }
           }
         }

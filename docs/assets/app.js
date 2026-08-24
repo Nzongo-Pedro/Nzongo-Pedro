@@ -41,7 +41,70 @@ markActive();
 const year = document.querySelector("[data-year]");
 if (year) year.textContent = String(new Date().getFullYear());
 
-const FEATURED_LIMIT = 3;
+const skillLogos = {
+  php: "https://cdn.simpleicons.org/php/777BB4",
+  laravel: "https://cdn.simpleicons.org/laravel/FF2D20",
+  livewire: "https://cdn.simpleicons.org/livewire/4E56A6",
+  api: "https://cdn.simpleicons.org/swagger/85EA2D",
+  mysql: "https://cdn.simpleicons.org/mysql/4479A1",
+  postgresql: "https://cdn.simpleicons.org/postgresql/4169E1",
+  vue: "https://cdn.simpleicons.org/vuedotjs/4FC08D",
+  react: "https://cdn.simpleicons.org/react/61DAFB",
+  typescript: "https://cdn.simpleicons.org/typescript/3178C6",
+  javascript: "https://cdn.simpleicons.org/javascript/F7DF1E",
+  tailwind: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+  bootstrap: "https://cdn.simpleicons.org/bootstrap/7952B3",
+  linux: "https://cdn.simpleicons.org/linux/FCC624",
+  docker: "https://cdn.simpleicons.org/docker/2496ED",
+  nginx: "https://cdn.simpleicons.org/nginx/009639",
+  cicd: "https://cdn.simpleicons.org/githubactions/2088FF",
+  git: "https://cdn.simpleicons.org/git/F05032",
+  github: "https://cdn.simpleicons.org/github/58A6FF",
+  cisco: "https://cdn.simpleicons.org/cisco/1BA0D7",
+  ospf: "assets/skills/ospf.svg",
+  voip: "assets/skills/voip.svg",
+  esp32: "https://cdn.simpleicons.org/espressif/E7352C",
+  arduino: "https://cdn.simpleicons.org/arduino/00878F",
+  packettracer: "assets/skills/packet-tracer.svg",
+};
+
+const bindSkillLogos = () => {
+  document.querySelectorAll(".skill").forEach((card) => {
+    const glow = card.querySelector("[data-skill-logo]");
+    const img = glow?.querySelector("img");
+    if (!glow || !img) return;
+
+    let hideTimer = 0;
+    const showLogo = (skill) => {
+      const src = skillLogos[skill];
+      if (!src) return;
+      window.clearTimeout(hideTimer);
+      if (img.src !== new URL(src, window.location.href).href) {
+        img.src = src;
+      }
+      card.classList.add("is-lit");
+    };
+    const hideLogo = () => {
+      hideTimer = window.setTimeout(() => card.classList.remove("is-lit"), 90);
+    };
+
+    img.addEventListener("error", () => {
+      card.classList.remove("is-lit");
+    });
+
+    card.querySelectorAll(".chip[data-skill]").forEach((chip) => {
+      chip.addEventListener("mouseenter", () => showLogo(chip.dataset.skill));
+      chip.addEventListener("focus", () => showLogo(chip.dataset.skill));
+      chip.addEventListener("mouseleave", hideLogo);
+      chip.addEventListener("blur", hideLogo);
+    });
+  });
+};
+
+bindSkillLogos();
+
+const FEATURED_LIMIT = 4;
+const HOME_COUNT = 5;
 
 const estadoLabel = {
   "em-producao": "Em produ\u00e7\u00e3o",
@@ -71,10 +134,11 @@ const sortProjects = (list) =>
   [...list].sort((a, b) => Number(b.destaque) - Number(a.destaque) || (b.ano ?? 0) - (a.ano ?? 0));
 
 const loadProjects = async () => {
-  const response = await fetch("data/projectos.json", { cache: "no-cache" });
+  const requestUrl = new URL("./data/projectos.json", window.location.href);
+  const response = await fetch(requestUrl, { cache: "no-cache" });
   if (!response.ok) throw new Error("json");
   const data = await response.json();
-  return sortProjects(data.projectos ?? []);
+  return data.projectos ?? [];
 };
 
 const renderCard = (project) => {
@@ -90,7 +154,10 @@ const renderCard = (project) => {
         <img src="${escapeHtml(capa?.ficheiro)}" alt="${escapeHtml(capa?.alt || project.nome)}" />
       </div>
       <div class="project-body">
-        <span class="tag">${escapeHtml(project.categoria || project.tipo)}</span>
+        <div class="project-tags">
+          <span class="tag">${escapeHtml(project.categoria || project.tipo)}</span>
+          ${project.confidencial ? '<span class="tag tag-private">Privado</span>' : ""}
+        </div>
         <h3>${escapeHtml(project.nome)}</h3>
         <p class="project-tagline">${escapeHtml(project.subtitulo || "")}</p>
         <p>${escapeHtml(project.descricao)}</p>
@@ -116,10 +183,31 @@ const mountProjectList = async () => {
 
   try {
     const all = await loadProjects();
-    const featured = all.filter((item) => item.destaque);
-    const homeList = (featured.length ? featured : all).slice(0, FEATURED_LIMIT);
-    const items = mode === "featured" ? homeList : all;
-    root.innerHTML = listMarkup(items);
+    const homeList = all.slice(0, HOME_COUNT);
+    const items = mode === "featured" ? homeList : sortProjects(all);
+
+    if (mode === "featured" && homeList.length > FEATURED_LIMIT) {
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const cards = homeList.map(renderCard).join("");
+      const duration = Math.max(22, homeList.length * 6);
+
+      root.classList.add("is-slider");
+      root.innerHTML = `
+        <div class="project-slider" data-project-slider>
+          <div class="project-track is-marquee" data-project-track style="--marquee-duration: ${duration}s">
+            <div class="project-marquee-set">${cards}</div>
+            <div class="project-marquee-set" aria-hidden="true" inert>${cards}</div>
+          </div>
+        </div>
+      `;
+
+      if (reduceMotion) {
+        root.classList.remove("is-slider");
+        root.innerHTML = listMarkup(homeList);
+      }
+    } else {
+      root.innerHTML = listMarkup(items);
+    }
 
     if (more) {
       const hidden = all.length - items.length;
@@ -163,7 +251,7 @@ const renderDetail = (project, all) => {
   const capa = project.imagens?.capa;
   const cliente = [project.cliente?.nome, project.cliente?.sector, project.cliente?.localizacao]
     .filter(Boolean)
-    .join(" \u00b7 ");
+    .join(", ");
   const gallery = galleryImages(project)
     .map(
       (image) => `
@@ -175,6 +263,10 @@ const renderDetail = (project, all) => {
         </figure>`
     )
     .join("");
+
+  const cover = capa
+    ? `<div class="detail-cover"><img src="${escapeHtml(capa.ficheiro)}" alt="${escapeHtml(capa.alt || project.nome)}" /></div>`
+    : "";
 
   return `
     <header class="detail-hero">
@@ -192,7 +284,7 @@ const renderDetail = (project, all) => {
       <div class="actions">${renderLinks(project.links)}</div>
     </header>
 
-    ${capa ? `<div class="detail-cover"><img src="${escapeHtml(capa.ficheiro)}" alt="${escapeHtml(capa.alt || project.nome)}" /></div>` : ""}
+    ${cover}
 
     <section class="detail-copy">
       <p>${escapeHtml(project.descricao)}</p>
@@ -234,9 +326,13 @@ const mountProjectDetail = async () => {
       return;
     }
 
-    document.title = `${project.nome} \u2014 Nzongo Pedro`;
+    document.title = `${project.nome} | Nzongo Pedro`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", project.subtitulo || project.descricao);
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute("content", `${project.nome} | Nzongo Pedro`);
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", project.subtitulo || project.descricao);
     root.innerHTML = renderDetail(project, all);
 
     const lightbox = document.querySelector("[data-lightbox]");
