@@ -4,11 +4,11 @@
 
 Também conhecido como **Mr. PHP**.
 
-Construo sistemas web, APIs, infraestruturas e soluções IoT com foco em **arquitetura de software, backend, automação, infraestrutura de produção e integração entre software e sistemas físicos**.
+Construo sistemas web, APIs, infraestrutura e soluções IoT com foco em **backend, arquitetura de software, automação, infraestrutura de produção e integração entre software e sistemas físicos**.
 
 Minha atuação principal está no ecossistema **PHP/Laravel**, complementado por Linux, Docker, Git, CI/CD, servidores web, bases de dados, cloud, telecomunicações e sistemas embarcados.
 
-O objetivo não é apenas fazer código funcionar localmente. É construir sistemas que possam ser **implantados, mantidos, monitorizados, protegidos e evoluídos**.
+> O objetivo não é apenas fazer código funcionar localmente. É construir sistemas que possam ser implantados, mantidos, monitorizados, protegidos e evoluídos.
 
 **Luanda, Angola**
 
@@ -18,7 +18,7 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
 
 ---
 
-## Perfil Técnico
+## Áreas de Engenharia
 
 ### Engenharia de Software
 
@@ -30,8 +30,7 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
 - Autenticação e autorização
 - Integração entre sistemas
 - Modelação e otimização de bases de dados
-- Sistemas SaaS e multi-tenant
-- Desenvolvimento orientado a requisitos
+- SaaS e sistemas multi-tenant
 - Deploy e manutenção de aplicações em produção
 
 ### DevOps e Infraestrutura
@@ -39,8 +38,7 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
 - Linux / Ubuntu
 - Docker e Docker Compose
 - Git e GitHub
-- CI/CD
-- GitHub Actions
+- CI/CD e GitHub Actions
 - Nginx e Apache
 - HTTPS / SSL/TLS
 - DNS e domínios
@@ -80,16 +78,16 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
 
 ---
 
-# Stack Tecnológica
+## Stack Tecnológica
 
-## Backend
+### Backend
 
 <p align="left">
   <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" height="48" alt="PHP"></a>
   <a href="https://laravel.com/"><img src="https://skillicons.dev/icons?i=laravel" height="48" alt="Laravel"></a>
 </p>
 
-## Frontend
+### Frontend
 
 <p align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="48" alt="HTML"></a>
@@ -99,7 +97,7 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
   <a href="https://getbootstrap.com/"><img src="https://skillicons.dev/icons?i=bootstrap" height="48" alt="Bootstrap"></a>
 </p>
 
-## Databases
+### Databases
 
 <p align="left">
   <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="48" alt="MySQL"></a>
@@ -107,7 +105,7 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
   <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" height="48" alt="Redis"></a>
 </p>
 
-## DevOps / Infrastructure
+### DevOps / Infrastructure
 
 <p align="left">
   <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux"></a>
@@ -120,14 +118,14 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
   <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions"></a>
 </p>
 
-## APIs / Tools
+### APIs / Tools
 
 <p align="left">
   <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="48" alt="Postman"></a>
   <a href="https://swagger.io/"><img src="https://skillicons.dev/icons?i=swagger" height="48" alt="Swagger"></a>
 </p>
 
-## Embedded / IoT
+### Embedded / IoT
 
 <p align="left">
   <a href="https://www.arduino.cc/"><img src="https://skillicons.dev/icons?i=arduino" height="48" alt="Arduino"></a>
@@ -136,122 +134,99 @@ O objetivo não é apenas fazer código funcionar localmente. É construir siste
 
 ---
 
-# Engenharia na Prática
+## Engenharia na Prática
 
 ```text
-                    REQUIREMENTS
-                         │
-                         ▼
-                    ARCHITECTURE
-                         │
-                         ▼
-                    DEVELOPMENT
-                         │
-                         ▼
-                       TESTS
-                         │
-                         ▼
-                    GIT / GITHUB
-                         │
-                         ▼
-                       CI/CD
-                         │
-                         ▼
-                      DOCKER
-                         │
-                         ▼
-                 NGINX / APACHE
-                         │
-                         ▼
-                    HTTPS / DNS
-                         │
-                         ▼
-                    PRODUCTION
-                         │
-                         ▼
-             MONITORING / LOGGING
+Requirements
+     ↓
+Architecture
+     ↓
+Development
+     ↓
+Testing
+     ↓
+Git / GitHub
+     ↓
+CI/CD
+     ↓
+Docker
+     ↓
+Nginx / Apache
+     ↓
+HTTPS / DNS
+     ↓
+Production
+     ↓
+Monitoring / Logging
 ```
 
-A engenharia não termina quando a aplicação funciona localmente.
-
-O ciclo continua em **deploy, segurança, observabilidade, manutenção, otimização e evolução do sistema**.
+A engenharia não termina quando a aplicação funciona localmente. O ciclo continua em **deploy, segurança, observabilidade, manutenção, otimização e evolução**.
 
 ---
 
-# Projetos em Destaque
+## Projetos em Destaque
 
-## PRSP — Plataforma de Reservas para Serviços Públicos
+### Product API
 
-Sistema orientado à gestão de reservas de serviços públicos, com diferentes módulos e um núcleo de gestão centralizado.
+API de gerenciamento de produtos construída com **Laravel 12, Domain-Driven Design (DDD), BDD com Pest, PostgreSQL e Docker**.
 
-O projeto explora modelação de processos, gestão de utentes e organização de operações de atendimento.
+Demonstra separação entre domínio, aplicação, infraestrutura e camada HTTP, além de regras de negócio, testes automatizados e ambiente reproduzível com containers.
 
-**Repositório:** https://github.com/Nzongo-Pedro/PSRSP
+[Ver repositório](https://github.com/Nzongo-Pedro/product-api)
 
-## Product API
+### PSRSP
 
-API de gerenciamento de produtos construída com **Laravel 12**, **Domain-Driven Design (DDD)**, **BDD com Pest**, **PostgreSQL** e **Docker**.
+Sistema orientado à gestão de reservas de serviços públicos, explorando modelação de processos, gestão de utentes e organização das operações de atendimento.
 
-O projeto demonstra separação entre domínio, aplicação, infraestrutura e camada HTTP, além de regras de negócio, testes automatizados e ambiente reproduzível com containers.
+[Ver repositório](https://github.com/Nzongo-Pedro/PSRSP)
 
-**Repositório:** https://github.com/Nzongo-Pedro/product-api
+### Smart Home IoT
 
-## EufraMise
+Protótipo IoT baseado em **ESP32**, sensores, atuadores e backend Laravel, integrando monitorização ambiental, deteção de presença, automação de iluminação, controlo de ventilação, I2C, UART e API REST.
 
-Aplicação web pública desenvolvida com HTML, CSS/SCSS, JavaScript e Bootstrap, organizada como uma interface institucional responsiva.
+### ColeGius
 
-O projeto demonstra trabalho com frontend, organização de assets, componentes de interface e publicação via GitHub Pages.
+Plataforma multi-tenant de gestão escolar para centralização de processos académicos e administrativos.
 
-**Repositório:** https://github.com/Nzongo-Pedro/app-mise
+### Corporate E-Learning & Compliance
 
-## Nanhonia
+Plataforma corporativa para formação obrigatória, avaliações, certificados, evidências de conclusão e auditabilidade.
 
-Website institucional desenvolvido com HTML, CSS, Bootstrap e JavaScript, com foco em apresentação de marca, navegação responsiva e experiência web.
+### EduBridge
 
-**Repositório:** https://github.com/Nzongo-Pedro/home-nanhonia
-
-## Sistemas em desenvolvimento
-
-Além dos projetos públicos, trabalho em sistemas de maior dimensão e aplicações orientadas a problemas reais, incluindo:
-
-- **ColeGius** — gestão escolar multi-tenant
-- **Corporate E-Learning & Compliance** — formação corporativa, avaliações, certificados e evidências de auditoria
-- **EduBridge** — plataforma de apoio educacional
-- **KwanzaGuard** — segurança, prevenção de fraude e confiança digital
-- **Smart Home IoT** — automação residencial com ESP32 e backend Laravel
+Plataforma de apoio educacional que conecta estudantes com necessidades financeiras a apoiadores.
 
 ---
 
-# Arquitetura de Sistemas
+## Arquitetura de Sistemas
 
-## Web / SaaS
+### Web / SaaS
 
 ```text
-                    Web / Mobile Client
-                           │
-                           ▼
-                        REST API
-                           │
-                           ▼
-                    Laravel Backend
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-           Database       Cache        Queue
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                     Infrastructure
-                           │
-                  ┌────────┼────────┐
-                  ▼        ▼        ▼
-                Docker   Nginx     CI/CD
-                  │
-                  ▼
-                Production
+Web / Mobile Client
+        │
+        ▼
+     REST API
+        │
+        ▼
+ Laravel Backend
+        │
+   ┌────┼────┐
+   ▼    ▼    ▼
+  DB   Cache Queue
+        │
+        ▼
+ Infrastructure
+        │
+   ┌────┼────┐
+   ▼    ▼    ▼
+Docker Nginx CI/CD
+        │
+        ▼
+    Production
 ```
 
-## IoT
+### IoT
 
 ```text
 Sensors / ESP32 / Arduino
@@ -274,44 +249,9 @@ Sensors / ESP32 / Arduino
 
 ---
 
-# Telecomunicações
+## Formação Técnica
 
-Minha formação em telecomunicações complementa a engenharia de software ao permitir compreender também a infraestrutura que sustenta os sistemas digitais.
-
-```text
-Physical Layer
-      │
-      ▼
-Data Link
-      │
-      ▼
-Network
-      │
-      ▼
-Transport
-      │
-      ▼
-Applications
-```
-
-Áreas de interesse e atuação:
-
-- Redes IP
-- TCP/IP
-- Routing
-- OSPF
-- DHCP
-- Subnetting
-- VoIP
-- Cisco
-- Infraestrutura de redes
-- Comunicação de dados
-
----
-
-# Formação Técnica
-
-Também atuo como formador e professor técnico em áreas relacionadas com tecnologia e engenharia.
+Também atuo como formador e professor técnico em:
 
 - Informática
 - Programação
@@ -326,11 +266,11 @@ Também atuo como formador e professor técnico em áreas relacionadas com tecno
 - Sistemas embarcados
 - Desenvolvimento prático de software
 
-**Ensinar aquilo que compreendo faz parte da minha prática de engenharia.**
+> Ensinar aquilo que compreendo faz parte da minha prática de engenharia.
 
 ---
 
-# GitHub
+## GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nzongo-Pedro&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" height="170" alt="GitHub Stats">
@@ -339,7 +279,7 @@ Também atuo como formador e professor técnico em áreas relacionadas com tecno
 
 ---
 
-# Foco Atual
+## Foco Atual
 
 - Arquitetura de aplicações Laravel
 - APIs e desenvolvimento API-first
@@ -357,7 +297,7 @@ Também atuo como formador e professor técnico em áreas relacionadas com tecno
 
 ---
 
-# Princípios de Engenharia
+## Princípios de Engenharia
 
 > Construir sistemas que resolvem problemas reais.
 >
@@ -377,31 +317,18 @@ Também atuo como formador e professor técnico em áreas relacionadas com tecno
 
 ---
 
-# Contacto
+## Contacto
 
-**GitHub:** https://github.com/Nzongo-Pedro  
-**Portfolio:** https://nzongo-pedro.github.io/NzongoPedro/  
+**GitHub:** [Nzongo-Pedro](https://github.com/Nzongo-Pedro)  
+**Portfolio:** [nzongo-pedro.github.io/NzongoPedro](https://nzongo-pedro.github.io/NzongoPedro/)  
 **Email:** [nzongopedro3@gmail.com](mailto:nzongopedro3@gmail.com)  
 **WhatsApp:** [+244 956 367 602](https://wa.me/244956367602)  
 **Localização:** Luanda, Angola
 
 ---
 
-# Colaboração
+## Colaboração
 
 Tenho interesse em colaborar em projetos relacionados com:
 
-- Engenharia de software
-- PHP / Laravel
-- APIs
-- DevOps
-- Cloud
-- Linux
-- Infraestrutura
-- Telecomunicações
-- Redes
-- IoT
-- EdTech
-- SaaS
-- Automação
-- Open Source
+**PHP / Laravel · APIs · DevOps · Cloud · Linux · Infraestrutura · Telecomunicações · Redes · IoT · EdTech · SaaS · Automação · Open Source**
