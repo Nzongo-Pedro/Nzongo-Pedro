@@ -12,7 +12,6 @@ Minha atuação principal está no ecossistema **PHP/Laravel**, complementado po
 
 **Luanda, Angola**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Nzongo--Pedro-181717?style=flat-square&logo=github)](https://github.com/Nzongo-Pedro)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nzongo%20Francisco%20Pedro-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nzongo-francisco-pedro/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://nzongo-pedro.github.io/NzongoPedro/)
 [![Email](https://img.shields.io/badge/Email-nzongopedro3%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nzongopedro3@gmail.com)
